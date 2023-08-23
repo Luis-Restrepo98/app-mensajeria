@@ -1,0 +1,46 @@
+@use "mixins";
+
+.container_principal {
+    background-image: url("../imagenes/pinguino.jpg");
+    background-size: cover; /* Ajusta la imagen al tamaño del elemento */
+    background-position: center;
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-attachment: fixed; /* Fija la imagen de fondo al desplazar */
+}
+header{
+    @media (min-width:1115px){
+        display: flex;
+        margin-left: 300px;
+    }
+}
+.titulo_principal{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 90px;
+    @media (min-width:1115px){
+        width: 700px;
+    }
+}
+.boton_principal{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 90px;
+    @media (min-width:1115px){
+        margin-left: 5px;
+    }
+}
+.boton_resgistrarse{
+    @include mixins.botones;
+}
+.boton_iniciar_sesion{
+    @include mixins.botones;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

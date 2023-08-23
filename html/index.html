@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Mensajes App</title>
+</head>
+<body class="container_principal">
+    <header>
+        <h1 class="titulo_principal"><strong>App de mensajeria</strong></h1>
+        
+        <div class="boton_principal">
+            <button class="boton_resgistrarse"> <a href="">Registrarse</a></button>
+            <button class="boton_iniciar_sesion"> <a href="">Iniciar Sesión</a></button>
+        </div>
+        
+    </header>
+    <!-- Página de Inicio de Sesión -->
+    <div class="inicio_sesion">
+        <form class="formulario_inicio" id="signin-form">
+            <h2 class="formulario_titulo1">Inicio de Sesión</h2>
+            <input class="formulario_celular" type="number" placeholder="Número de Celular" required>
+            <input class="formulario_contraseña" type="password"  placeholder="Contraseña" required>
+            <button class="formulario_aceptar" ><a href="./home.html">Aceptar</a></button>
+        </form>   
+    </div>
+
+    <!-- Página de Registro -->
+    <div class="formulario_regis">
+        <form class="formulario_registro">
+            <h2 class="formulario_titulo">Registrarse</h2>
+            <input class="formulario_text" type="text"  placeholder="Nombre" required>
+            <input class="formulario_number" type="number"  placeholder="Número de Celular" required>
+            <input class="formulario_password" type="password"  placeholder="Contraseña" required>
+            <input class="formulario_url" type="url"  placeholder="URL de Imagen de Perfil">
+            <button class="formulario_fin_registro">Registrarse</button>
+        </form>     
+    </div>
+    <script src="script.js"></script> <!-- Enlace a tu archivo de scripts JavaScript -->
+</body>
+</html>
