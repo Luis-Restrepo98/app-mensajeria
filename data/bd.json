@@ -1,105 +1,191 @@
 {
-    "usuarios": [
-      {
-        "id": 1,
-        "nombre": "Usuario 1",
-        "celular": "1234567890",
-        "contraseña": "contraseña123",
-        "perfil": "url_imagen_1.jpg",
-        "EnLinea": true,
-        "identificacionUsuario": "usuario1",
-        "ultimaHora": "2023-08-20T10:30:00"
-      },
-      {
-        "id": 2,
-        "nombre": "Usuario 2",
-        "celular": "9876543210",
-        "contraseña": "clave456",
-        "perfil": "url_imagen_2.jpg",
-        "EnLinea": false,
-        "identificacionUsuario": "usuario2",
-        "ultimaHora": "2023-08-19T15:45:00"
-      },
-      {
-        "id": 3,
-        "nombre": "Usuario 3",
-        "celular": "5555555555",
-        "contraseña": "password123",
-        "perfil": "url_imagen_3.jpg",
-        "EnLinea": true,
-        "identificacionUsuario": "user3",
-        "ultimaHora": "2023-08-20T08:20:00"
-      },
-      {
-        "id": 4,
-        "nombre": "Usuario 4",
-        "celular": "6666666666",
-        "contraseña": "securepass",
-        "perfil": "url_imagen_4.jpg",
-        "EnLinea": true,
-        "identificacionUsuario": "user4",
-        "ultimaHora": "2023-08-20T12:00:00"
-      },
-      {
-        "id": 5,
-        "nombre": "Usuario 5",
-        "celular": "7777777777",
-        "contraseña": "mypass",
-        "perfil": "url_imagen_5.jpg",
-        "EnLinea": false,
-        "identificacionUsuario": "user5",
-        "ultimaHora": "2023-08-19T21:30:00"
-      },
-      {
-        "id": 6,
-        "nombre": "Usuario 6",
-        "celular": "8888888888",
-        "contraseña": "newpassword",
-        "perfil": "url_imagen_6.jpg",
-        "EnLinea": true,
-        "identificacionUsuario": "user6",
-        "ultimaHora": "2023-08-20T14:15:00"
-      },
-      {
-        "id": 7,
-        "nombre": "Usuario 7",
-        "celular": "9999999999",
-        "contraseña": "secret123",
-        "perfil": "url_imagen_7.jpg",
-        "EnLinea": false,
-        "identificacionUsuario": "user7",
-        "ultimaHora": "2023-08-19T17:55:00"
-      },
-      {
-        "id": 8,
-        "nombre": "Usuario 8",
-        "celular": "1111111111",
-        "contraseña": "userpass",
-        "perfil": "url_imagen_8.jpg",
-        "EnLinea": true,
-        "identificacionUsuario": "user8",
-        "ultimaHora": "2023-08-20T10:05:00"
-      },
-      {
-        "id": 9,
-        "nombre": "Usuario 9",
-        "celular": "2222222222",
-        "contraseña": "pass1234",
-        "perfil": "url_imagen_9.jpg",
-        "EnLinea": true,
-        "identificacionUsuario": "user9",
-        "ultimaHora": "2023-08-20T16:30:00"
-      },
-      {
-        "id": 10,
-        "nombre": "Usuario 10",
-        "celular": "3333333333",
-        "contraseña": "12345678",
-        "perfil": "url_imagen_10.jpg",
-        "EnLinea": false,
-        "identificacionUsuario": "user10",
-        "ultimaHora": "2023-08-19T19:20:00"
-      } 
-    ]
-  }
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Usuario 1",
+      "celular": "1234567890",
+      "contraseña": "contraseña123",
+      "perfil": "url_imagen_1.jpg",
+      "EnLinea": true,
+      "identificacionUsuario": "usuario1",
+      "ultimaHora": "2023-08-20T10:30:00"
+    },
+    {
+      "id": 2,
+      "nombre": "Usuario 2",
+      "celular": "9876543210",
+      "contraseña": "clave456",
+      "perfil": "url_imagen_2.jpg",
+      "EnLinea": false,
+      "identificacionUsuario": "usuario2",
+      "ultimaHora": "2023-08-19T15:45:00"
+    },
+    {
+      "id": 3,
+      "nombre": "Usuario 3",
+      "celular": "5555555555",
+      "contraseña": "password123",
+      "perfil": "url_imagen_3.jpg",
+      "EnLinea": true,
+      "identificacionUsuario": "user3",
+      "ultimaHora": "2023-08-20T08:20:00"
+    },
+    {
+      "id": 4,
+      "nombre": "Usuario 4",
+      "celular": "6666666666",
+      "contraseña": "securepass",
+      "perfil": "url_imagen_4.jpg",
+      "EnLinea": true,
+      "identificacionUsuario": "user4",
+      "ultimaHora": "2023-08-20T12:00:00"
+    },
+    {
+      "id": 5,
+      "nombre": "Usuario 5",
+      "celular": "7777777777",
+      "contraseña": "mypass",
+      "perfil": "url_imagen_5.jpg",
+      "EnLinea": false,
+      "identificacionUsuario": "user5",
+      "ultimaHora": "2023-08-19T21:30:00"
+    },
+    {
+      "id": 6,
+      "nombre": "Usuario 6",
+      "celular": "8888888888",
+      "contraseña": "newpassword",
+      "perfil": "url_imagen_6.jpg",
+      "EnLinea": true,
+      "identificacionUsuario": "user6",
+      "ultimaHora": "2023-08-20T14:15:00"
+    },
+    {
+      "id": 7,
+      "nombre": "Usuario 7",
+      "celular": "9999999999",
+      "contraseña": "secret123",
+      "perfil": "url_imagen_7.jpg",
+      "EnLinea": false,
+      "identificacionUsuario": "user7",
+      "ultimaHora": "2023-08-19T17:55:00"
+    },
+    {
+      "id": 8,
+      "nombre": "Usuario 8",
+      "celular": "1111111111",
+      "contraseña": "userpass",
+      "perfil": "url_imagen_8.jpg",
+      "EnLinea": true,
+      "identificacionUsuario": "user8",
+      "ultimaHora": "2023-08-20T10:05:00"
+    },
+    {
+      "id": 9,
+      "nombre": "Usuario 9",
+      "celular": "2222222222",
+      "contraseña": "pass1234",
+      "perfil": "url_imagen_9.jpg",
+      "EnLinea": true,
+      "identificacionUsuario": "user9",
+      "ultimaHora": "2023-08-20T16:30:00"
+    },
+    {
+      "id": 10,
+      "nombre": "Usuario 10",
+      "celular": "3333333333",
+      "contraseña": "12345678",
+      "perfil": "url_imagen_10.jpg",
+      "EnLinea": false,
+      "identificacionUsuario": "user10",
+      "ultimaHora": "2023-08-19T19:20:00"
+    } 
+  ],
+  "mensajes": [
+    {
+      "idUsuario1": 1,
+      "idUsuario2": 2,
+      "idUsuario3": 3,
+      "idUsuario4": 4,
+      "idUsuario5": 5,
+      "idUsuario6": 6,
+      "idUsuario7": 7,
+      "idUsuario8": 8,
+      "idUsuario9": 9,
+      "idUsuario10": 10,
+      "conversacion": [
+        {
+          "enviadoPor": 1,
+          "fecha": "2023-08-20",
+          "hora": "10:30 AM",
+          "mensaje": "Hola, ¿cómo estás?",
+          "banderaFlag": true
+        },
+        {
+          "enviadoPor": 2,
+          "fecha": "2023-08-20",
+          "hora": "11:15 AM",
+          "mensaje": "¡Hola! Estoy bien, gracias.",
+          "banderaFlag": false
+        },
+        {
+          "enviadoPor": 3,
+          "fecha": "2023-08-20",
+          "hora": "09:30 AM",
+          "mensaje": "Hola, ¿cómo estás?",
+          "banderaFlag": true
+        },
+        {
+          "enviadoPor": 4,
+          "fecha": "2023-08-19",
+          "hora": "03:00 PM",
+          "mensaje": "Nos vemos esta noche.",
+          "banderaFlag": true
+        },
+        {
+          "enviadoPor": 5,
+          "fecha": "2023-08-20",
+          "hora": "01:45 PM",
+          "mensaje": "¿Qué planes tienes para el fin de semana?",
+          "banderaFlag": false
+        },
+        {
+          "enviadoPor": 6,
+          "fecha": "2023-08-20",
+          "hora": "04:30 PM",
+          "mensaje": "¡Feliz cumpleaños!",
+          "banderaFlag": true
+        },
+        {
+          "enviadoPor": 7,
+          "fecha": "2023-08-19",
+          "hora": "08:10 PM",
+          "mensaje": "Vamos al cine mañana.",
+          "banderaFlag": false
+        },
+        {
+          "enviadoPor": 8,
+          "fecha": "2023-08-20",
+          "hora": "12:20 PM",
+          "mensaje": "¡Hola! ¿Qué tal tu día?",
+          "banderaFlag": true
+        },
+        {
+          "enviadoPor": 9,
+          "fecha": "2023-08-20",
+          "hora": "02:40 PM",
+          "mensaje": "Te extraño. Nos vemos pronto.",
+          "banderaFlag": false
+        },
+        {
+          "enviadoPor": 10,
+          "fecha": "2023-08-19",
+          "hora": "10:00 PM",
+          "mensaje": "¿Has probado ese nuevo restaurante?",
+          "banderaFlag": true
+        }
+      ]
+    }
+  ]
+}
  
