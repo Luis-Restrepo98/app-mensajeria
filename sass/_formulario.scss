@@ -34,6 +34,11 @@ input[type="url"] {
     border: 1px solid black;
     border-radius: 8px;
 }
+input[type="number"] {
+    &:focus::-webkit-inner-spin-button, &:hover::-webkit-inner-spin-button {
+      display: none; /* para retirar el scroll */
+    }
+}
 // Estilos para formulario inicio de sesion//
 
 .inicio_sesion{
