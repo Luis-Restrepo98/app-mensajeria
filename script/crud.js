@@ -1,22 +1,20 @@
 const URLUsuarios = "https://35.160.120.126/app-mensajeria-sere.onrender.com/usuarios/"
 
-document.querySelector(".formulario_registro").addEventListener('submit', async function(event) {
-    event.preventDefault(); // Evita el comportamiento predeterminado del formulario
+document.addEventListener("DOMContentLoaded", function() {
+    const formulario = document.querySelector(".formulario_registro");
+    const botonRegistrarse = document.querySelector(".formulario_fin_registro");
   
-    // Captura los datos del formulario
-    let formData = new FormData(this);
-    console.log(formData);
-    // Convierte los datos del formulario a JSON
-    let jsonObject = {};
-    for (const [key, value]  of formData.entries()) {
-      jsonObject[key] = value;
-    }
-  
-    // Envía una solicitud POST al servidor de json-server
-    try {
-      const response = await axios.post(URLUsuarios, jsonObject); // Asegúrate de reemplazar 'http://localhost:3000/users' con la URL de tu servidor de json-server
-      console.log("Producto agregado:", response.data);
-    } catch (error) {
-      console.error("Error al agregar:", error);
-    }
+    botonRegistrarse.addEventListener("submit", function() {
+      const nombre = document.querySelector(".formulario_text").value;
+      const numeroCelular = document.querySelector(".formulario_number").value;
+      const contrasena = document.querySelector(".formulario_password").value;
+      const urlImagen = document.querySelector(".formulario_url").value;
+      // Aquí puedes hacer lo que quieras con los datos capturados, como enviarlos a un servidor
+      // para procesar el registro o validar los datos en el lado del cliente.
+      
+      console.log("Nombre:", nombre);
+      console.log("numero:", numeroCelular);
+      console.log("Contraseña:", contrasena);
+      console.log("url :" , urlImagen);
+    });
   });
