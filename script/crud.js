@@ -1,11 +1,11 @@
-const URLUsuarios = "https://app-mensajeria-sere.onrender.com/usuarios/"
+const URLUsuarios = "https://35.160.120.126/app-mensajeria-sere.onrender.com/usuarios/"
 
-document.getElementById('formulario_registro').addEventListener('submit', async function(event) {
+document.querySelector(".formulario_registro").addEventListener('submit', async function(event) {
     event.preventDefault(); // Evita el comportamiento predeterminado del formulario
   
     // Captura los datos del formulario
     let formData = new FormData(this);
-  
+    console.log(formData);
     // Convierte los datos del formulario a JSON
     let jsonObject = {};
     for (const [key, value]  of formData.entries()) {
