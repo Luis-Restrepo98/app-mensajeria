@@ -4,8 +4,8 @@ const registro = document.querySelector(".formulario_registro")
 document.addEventListener("DOMContentLoaded", function() {
     const botonRegistrarse = document.querySelector(".formulario_fin_registro");
   
-    botonRegistrarse.addEventListener("submit", function() {
-      const nombre = document.querySelector(".formulario_text").value;
+    botonRegistrarse.addEventListener("click", function() {
+      const nombre = document.querySelector(".formulario_nombre").value;
       const numeroCelular = document.querySelector(".formulario_number").value;
       const contrasena = document.querySelector(".formulario_password").value;
       const urlImagen = document.querySelector(".formulario_url").value;
