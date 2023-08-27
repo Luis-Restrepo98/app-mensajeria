@@ -20,8 +20,8 @@
     <div class="inicio_sesion">
         <form class="formulario_inicio">
             <h2 class="formulario_titulo1">Inicio de Sesión</h2>
-            <input class="formulario_celular" type="number" placeholder="Número de Celular" required>
-            <input class="formulario_contraseña" type="password"  placeholder="Contraseña" required>
+            <input class="formulario_celular" type="number" name="formulario_celular" placeholder="Número de Celular" required>
+            <input class="formulario_contraseña" type="password" name="formulario_contraseña"  placeholder="Contraseña" required>
             <button class="formulario_aceptar" ><a href="">Aceptar</a></button>
         </form>   
     </div>
@@ -29,15 +29,16 @@
     <!-- Página de Registro -->
     <div class="formulario_regis">
         <form class="formulario_registro">
-            <h2 class="formulario_titulo">Registrarse</h2>
-            <input class="formulario_text" type="text"  placeholder="Nombre" required>
-            <input class="formulario_number" type="number"  placeholder="Número de Celular" required>
-            <input class="formulario_password" type="password"  placeholder="Contraseña" required>
-            <input class="formulario_url" type="url"  placeholder="URL de Imagen de Perfil">
-            <button class="formulario_fin_registro" type="submit">Registrarse</button>
+            <h2 class="formulario_titulo" >Registrarse</h2>
+            <input class="formulario_text" type="text" name="formulario_text" placeholder="Nombre" required>
+            <input class="formulario_number" type="number" name="formulario_number" placeholder="Número de Celular" required>
+            <input class="formulario_password" type="password" name="formulario_password"  placeholder="Contraseña" required>
+            <input class="formulario_url" type="url" name="formulario_url"  placeholder="URL de Imagen de Perfil">
+            <button class="formulario_fin_registro" type="click">Registrarse</button>
         </form>     
     </div>
     <script src="../script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="../CRUD/registrarse.js"></script>
 </body>
 </html>

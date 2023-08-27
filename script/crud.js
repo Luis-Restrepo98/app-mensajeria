@@ -1,7 +1,7 @@
-const URLUsuarios = "https://35.160.120.126/app-mensajeria-sere.onrender.com/usuarios/"
+const URLUsuarios = "https://app-mensajeria-sere.onrender.com/usuarios/" 
 
+const registro = document.querySelector(".formulario_registro")
 document.addEventListener("DOMContentLoaded", function() {
-    const formulario = document.querySelector(".formulario_registro");
     const botonRegistrarse = document.querySelector(".formulario_fin_registro");
   
     botonRegistrarse.addEventListener("submit", function() {
@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
       console.log("Nombre:", nombre);
       console.log("numero:", numeroCelular);
       console.log("Contraseña:", contrasena);
-      console.log("url :" , urlImagen);
+      console.log("url:" , urlImagen);
     });
   });
+ 
