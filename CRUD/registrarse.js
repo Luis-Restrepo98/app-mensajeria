@@ -13,9 +13,18 @@ btnRegistrarse.addEventListener('click', async event => {
 
   const nuevoUsuario = {
     nombre: nombre.value,
-    numeroCelular: numeroCelular.value,
-    contrasena: contrasena.value,
+    celular: numeroCelular.value,
+    contraseña: contrasena.value,
     urlImagen: urlImagen.value, 
   }
   await registrarUsuario(nuevoUsuario);
+  Swal.fire({
+    icon: 'success',
+    title: 'Registro con éxito',
+    text: '¡Has sido registrado con éxito!',
+  }).then((result) => {
+    if (result.isConfirmed) {
+      document.querySelector(".formulario_regis").style.display = "none";
+    }
+})
 });

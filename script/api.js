@@ -10,3 +10,14 @@ export const registrarUsuario = async (body) => {
         console.error(error);
     }
 }
+
+export const inicioSesion = async () => {
+    try {
+        const response = await axios.get(`${BASE_URL}/usuarios/`);
+        return response.data;
+    } catch (error) {
+        console.error(error);
+        return [];
+    }
+}
+
