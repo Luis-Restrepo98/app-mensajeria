@@ -10,59 +10,93 @@
 </head>
 <body class="container_secundario">
         <!-- Página Principal (Home) -->
-        <header>
-            <div class="home">
-                <h1 class="nombre">WhatsApp</h1>
-                <div class="informacion">
-                    <div class="navegadores_container">
-                        <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
-                        <h2 class="navegadores">Chats</h2>
-                        <h2 class="navegadores">Novedades</h2>
-                        <h2 class="navegadores">Llamadas</h2>
+
+        <div class="contenedor_home">
+            <header>
+                <div class="home">
+                    <h1 class="nombre">WhatsApp</h1>
+                    <div class="informacion">
+                        <div class="navegadores_container">
+                            <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
+                            <h2 class="navegadores">Chats</h2>
+                            <h2 class="navegadores">Novedades</h2>
+                            <h2 class="navegadores">Llamadas</h2>
+                        </div>
                     </div>
+                    <div class="imagen_container">
+                        <img class="header_camara" src="../imagenes/camera-1_48139.png" alt="">
+                        <img class="header_lupa" src="../imagenes/lupa.png" alt="">
+                        <img class="header_trespuntos" src="../imagenes/tres puntos vertical.png" alt="">
+                    </div>
+            
                 </div>
-                <div class="imagen_container">
-                    <img class="header_camara" src="../imagenes/camera-1_48139.png" alt="">
-                    <img class="header_lupa" src="../imagenes/lupa.png" alt="">
-                    <img class="header_trespuntos" src="../imagenes/tres puntos vertical.png" alt="">
+            </header>
+            
+                 <!-- Lista de Conversaciones -->
+                <div class="lista_conversacion">
+                    <ul class="conversacion">
+                       <li><img class="imagen_avatar" src="../imagenes/perfil-avatar-1.jpg" alt="">angie</li>
+                       <li><img class="imagen_avatar" src="../imagenes/avatar-fb.png" alt="">angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                       <li>angie</li>
+                    </ul>
+                            <!-- Historial de Conversación -->
+            
                 </div>
-               
+        </div>
+
+            <!-- modal de ajustes de perfil -->
+            <div class="modal_ajustes">
+                <div class="modal-dialog">
+                    <section class="modal-content">
+                        <ul class="modal_lista">
+                          <li>Nuevo grupo</li>
+                          <li>Nueva difusión</li>
+                          <li>Dispositivos vinculados</li>
+                          <li>Mensajes destacados</li>
+                          <li class="modal_ajuste_perfil">Ajustes</li>
+                        </ul>
+                    </section>
+                </div>
             </div>
-        </header>
-
-             <!-- Otras opciones de perfil y navegación -->
-<!--              <div class="navbar">
-                 <nav class="busqueda_chat">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Buscar Chat">
-                 </nav>
-             </div>-->
-             
-
-             <!-- Lista de Conversaciones -->
-            <div class="lista_conversacion">
-                <ul class="conversacion">
-                   <li><img class="imagen_avatar" src="../imagenes/perfil-avatar-1.jpg" alt="">angie</li>
-                   <li><img class="imagen_avatar" src="../imagenes/avatar-fb.png" alt="">angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                   <li>angie</li>
-                </ul> 
-                        <!-- Historial de Conversación -->
-               
+            <!---modal edicion de perfil-->
+            <div class="modal_ajustes_perfil">
+                <header class="modal_header_container">
+                    <div class="modal_header_contain">
+                        <img class="modal_header-flecha_izquierda" src="../imagenes/flecha izquierda.jpg" alt="">
+                        <h1 class="modal_header_ajustes">Ajustes</h1>
+                    </div>
+                    <img class="modal_header_lupa" src="../imagenes/lupa.png" alt="">
+                </header>
+                <section class="modal_perfil">
+                    <img class="modal_perfil_avatar" src="../imagenes/luis.jpeg" alt="">
+                    <h2 class="modal_perfil_nombre">Nombre</h2>
+                </section>
+                <section class="modal_edicion_perfil">
+                    <div><img src="" alt=""><h2 class="title_opcion">Cuenta</h2><p class="title_opcion_parrafo">Notitificaciones de seguridad, cambiar numero</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Privacidad</h2><p class="title_opcion_parrafo">Bloquear contactos, mensajes temporales</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Avatar</h2><p class="title_opcion_parrafo">Crear, editar, administrar foto del perfil</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Chats</h2><p class="title_opcion_parrafo">Tema, fondos de pantalla, historial de chat</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Notificaciones</h2><p class="title_opcion_parrafo">Tonos de mensaje, grupos y llamadas</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Almacenamiento y datos</h2><p class="title_opcion_parrafo">Uso de red, descarga automatica</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Idioma de la aplicacion</h2><p class="title_opcion_parrafo">Español (idioma del dispositivo)</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Ayuda</h2><p class="title_opcion_parrafo">Centro de ayuda, contactanos, politica de privacidad</p></div>
+                    <div><img src="" alt=""><h2 class="title_opcion">Invitar amigos</h2></div>
+                </section> 
             </div>
-
         
-<script src="../script/script.js"></script>
+<script src="../script/home.js"></script>
+<script type="module" src="../CRUD/editar_usuario.js"></script>
 </body>
 </html>

@@ -9,4 +9,5 @@ iniciarSesion.addEventListener('click', function(event) {
 registrarse.addEventListener("click" , function(event) {
   event.preventDefault();
   document.querySelector(".formulario_regis").style.display= "block";
-} )
+});
+
