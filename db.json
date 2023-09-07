@@ -22,10 +22,10 @@
     },
     {
       "id": 3,
-      "nombre": "Usuario 3",
+      "nombre": "Luis Restrepo",
       "celular": "5555555555",
       "contraseña": "password123",
-      "perfil": "url_imagen_3.jpg",
+      "perfil": "./imagenes/luis.jpeg",
       "EnLinea": true,
       "identificacionUsuario": "user3",
       "ultimaHora": "2023-08-20T08:20:00"
@@ -39,67 +39,7 @@
       "EnLinea": true,
       "identificacionUsuario": "user4",
       "ultimaHora": "2023-08-20T12:00:00"
-    },
-    {
-      "id": 5,
-      "nombre": "Usuario 5",
-      "celular": "7777777777",
-      "contraseña": "mypass",
-      "perfil": "url_imagen_5.jpg",
-      "EnLinea": false,
-      "identificacionUsuario": "user5",
-      "ultimaHora": "2023-08-19T21:30:00"
-    },
-    {
-      "id": 6,
-      "nombre": "Usuario 6",
-      "celular": "8888888888",
-      "contraseña": "newpassword",
-      "perfil": "url_imagen_6.jpg",
-      "EnLinea": true,
-      "identificacionUsuario": "user6",
-      "ultimaHora": "2023-08-20T14:15:00"
-    },
-    {
-      "id": 7,
-      "nombre": "Usuario 7",
-      "celular": "9999999999",
-      "contraseña": "secret123",
-      "perfil": "url_imagen_7.jpg",
-      "EnLinea": false,
-      "identificacionUsuario": "user7",
-      "ultimaHora": "2023-08-19T17:55:00"
-    },
-    {
-      "id": 8,
-      "nombre": "Usuario 8",
-      "celular": "1111111111",
-      "contraseña": "userpass",
-      "perfil": "url_imagen_8.jpg",
-      "EnLinea": true,
-      "identificacionUsuario": "user8",
-      "ultimaHora": "2023-08-20T10:05:00"
-    },
-    {
-      "id": 9,
-      "nombre": "Usuario 9",
-      "celular": "2222222222",
-      "contraseña": "pass1234",
-      "perfil": "url_imagen_9.jpg",
-      "EnLinea": true,
-      "identificacionUsuario": "user9",
-      "ultimaHora": "2023-08-20T16:30:00"
-    },
-    {
-      "id": 10,
-      "nombre": "Usuario 10",
-      "celular": "3333333333",
-      "contraseña": "12345678",
-      "perfil": "url_imagen_10.jpg",
-      "EnLinea": false,
-      "identificacionUsuario": "user10",
-      "ultimaHora": "2023-08-19T19:20:00"
-    } 
+    }
   ],
   "mensajes": [
     {

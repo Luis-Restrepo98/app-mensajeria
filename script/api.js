@@ -21,3 +21,11 @@ export const inicioSesion = async () => {
     }
 }
 
+export const editarUsuario = async (id, body) => {
+    try {
+        const response = await axios.put(`${BASE_URL}/usuarios/${id}`, body);
+        return response;
+    } catch (error) {
+        console.error(error);
+    }
+}

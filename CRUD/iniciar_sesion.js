@@ -20,16 +20,18 @@ btnInicio.addEventListener("click" , async event => {
         usuario.Celular === verificacionUsuario.numeroCelular &&
         usuario.contraseña === verificacionUsuario.contrasena
         );
-    
+        
         if(usuarioExiste) {
-        // Si el usuario existe
-        Swal.fire({
-            icon: 'success',
-            title: 'Inicio de sesión exitoso',
-            text: '¡Has iniciado sesión con éxito!',
-        }).then(() => {
-            window.location.href = "../html/home.html";
-          });
+            // Si el usuario existe
+            localStorage.setItem('celular', verificacionUsuario.celular);
+            localStorage.setItem('contrasena', verificacionUsuario.contrasena); 
+            Swal.fire({
+                icon: 'success',
+                title: 'Inicio de sesión exitoso',
+                text: '¡Has iniciado sesión con éxito!',
+            }).then(() => {
+                window.location.href = "../html/home.html";
+            });
         // Aquí puedes redirigir al usuario a la página principal o a donde desees
         } else {
         // Si el usuario no existe
