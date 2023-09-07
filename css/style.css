@@ -307,6 +307,66 @@ input[type=number]:focus::-webkit-inner-spin-button, input[type=number]:hover::-
     border-radius: 3px;
   }
 }
+.navegadores {
+  color: grey;
+}
+
+.navegadores:hover {
+  border-bottom: 2px solid rgb(121, 196, 121);
+  color: rgb(121, 196, 121);
+}
+
+/* Estilos para la barra lateral */
+.imagen_avatar {
+  width: 60px;
+  height: 66px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.busqueda_chat {
+  margin-top: 10px;
+  width: 330px;
+  cursor: pointer;
+}
+
+.lista_conversacion {
+  background-color: rgb(29, 29, 29);
+  width: 523px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.conversacion {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+  font-size: 16.3px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  margin-left: 40px;
+}
+
 .modal {
   position: fixed;
   top: 0;
