@@ -1,6 +1,8 @@
 import axios from 'https://cdn.jsdelivr.net/npm/axios@1.3.5/+esm';
 
-const BASE_URL = "https://app-mensajeria-sere.onrender.com"
+/* const BASE_URL = "https://app-mensajeria-sere.onrender.com"  */
+const BASE_URL ="http://localhost:3000" 
+
 
 export const registrarUsuario = async (body) => {
     try {
@@ -24,6 +26,15 @@ export const inicioSesion = async () => {
 export const editarUsuario = async (id, body) => {
     try {
         const response = await axios.put(`${BASE_URL}/usuarios/${id}`, body);
+        return response;
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+export const agregarContacto = async (body) => {
+    try {
+        const response = await axios.post(`${BASE_URL}/contactos/`, body);
         return response;
     } catch (error) {
         console.error(error);

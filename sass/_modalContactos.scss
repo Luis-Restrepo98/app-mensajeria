@@ -1,0 +1,109 @@
+.modal{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #111111bd;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+}
+.modal--show{
+    opacity:1 ;
+    pointer-events: unset;
+}
+.modal__contact{
+    margin: auto;
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;;
+    background-color: white;
+    border-radius: 6px;
+    padding: 3em 2.5em;
+    display: grid;
+    gap: 1em;
+    place-items: center ;
+    grid-auto-columns: 100% ;
+
+}
+.modal__title{
+    font-size: 2.5rem;
+}
+.header_contacto{
+    width: 90%;
+    max-width: 30px;
+}
+.flecha{
+    width: 30px;
+    height: 25px;
+    &:hover{
+        border-bottom: 2px solid rgb(121, 196, 121);
+        color: rgb(121, 196, 121);
+    }
+}
+
+.modal-conten{
+    display : none; 
+    position:fixed ;
+    z-index:1;
+    padding:10px;
+    margin: auto;
+    margin-top: 50px;
+    top: 0px;
+    left: 5%;
+    width: 400px;
+    height: 400px;
+    overflow: auto;
+    background-color: white;
+ 
+}
+.modal__contac{
+    padding: 5px;
+    width: 300px;
+    overflow: auto;
+    background-color: green;
+    margin: 10px;
+}
+.modal__title{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.flecha-agregar {
+    float: left;
+    font-size: 15px;
+    width: 30px;
+    height: 25px;
+  }
+  .flecha-agregar:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+.formulario_agregar {
+    position: relative; /* Relativo con respecto al contenedor -modal- */
+    margin: auto; /* Centrada */
+    margin-top: 100px;
+    border-radius: 4px;
+    width: 300px;
+    color: black;
+}
+
+.formulario_nombre{
+    margin-bottom: 16px;
+    border: 1px solid#1f53c5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.button_guardar{
+    width: 100%;
+    background: green;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}

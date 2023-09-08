@@ -99,8 +99,7 @@
                     <div><img src="" alt=""><h2 class="title_opcion">Invitar amigos</h2></div>
                 </section> 
             </div>
-        
-
+     <!--    Modal contactos  -->
            
         <img  class="header_contacto" src="../imagenes/agregar contac.png" alt="">
 
@@ -132,16 +131,16 @@
         </section>
 
        
-            <div class="modal-content">
+            <div class="modal-conten">
                 <form class="formulario_agregar">
-                    <div class="modal__contact">
+                    <div class="modal__conta">
                         <img  class="flecha-agregar" src="../imagenes/flecha.png" alt="">
                         <h2 class="modal__title">Nuevo contacto</h2>
                     </div>
-                    <input class="formulario_name" type="text" name="formulario_name" placeholder="Nombre" required>
-                    <input class="formulario_lastName" type="text" name="formulario_lastName"  placeholder="Apellido" required>
-                    <input class="formulario_cel" type="number" name="formulario_cel"  placeholder="Teléfono" required>
-                    <button type="submit" class="formulario_guardar" ><a href="">Guardar</a></button>
+                    <input class="formulario_nombre" type="text" name="formulario_name" placeholder="Ingrese su nombre" required>
+                    <input class="formulario_apellido" type="text" name="formulario_lastName"  placeholder="Ingrese su apellido" required>
+                    <input class="formulario_celular" type="number" name="formulario_cel"  placeholder="Teléfono" required>
+                    <button class="button_guardar" type="click" > GUARDAR</button>
                 </form> 
                
             </div>
@@ -172,5 +171,6 @@
         <script src="../script/home.js"></script>
         <script type="module" src="../CRUD/editar_usuario.js"></script>
         <script src="../script/contact.js"></script>
+        <script type="module" src="../CRUD/agregar_contacto.js"></script>
 </body>
 </html>

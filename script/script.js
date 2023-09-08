@@ -10,3 +10,4 @@ iniciarSesion.addEventListener("click" , function(e) {
   e.preventDefault(); // Evita el comportamiento predeterminado del botón
   document.querySelector(".inicio_sesion").style.display = "block";
 });
+
