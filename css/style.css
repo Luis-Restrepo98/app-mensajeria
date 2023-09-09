@@ -376,16 +376,87 @@ li {
   margin-left: 90px;
 }
 
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(17, 17, 17, 0.7411764706);
+.imgContac {
+  margin-left: 550px;
+}
+
+.fa-message {
+  font-size: 40px;
+}
+
+.principal_modal {
+  border: 2px solid red;
+  width: 480px;
+  height: 720px;
+  background: white;
+  display: none;
+}
+
+.headerPrincipalContac {
   display: flex;
-  opacity: 0;
-  pointer-events: none;
+  justify-content: space-between;
+  background: green;
+}
+
+.modal__contact {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.flecha {
+  width: 28px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.modal__title {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.modal__busqueda {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.header_lupa {
+  cursor: pointer;
+}
+
+.header_trespuntos {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.conten_nuevo {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.header_grupo {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.header_contac {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.header_comunidad {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.Contact_whatsapp {
+  margin-left: 20px;
+  color: gray;
 }
 
 .modal--show {
@@ -393,104 +464,104 @@ li {
   pointer-events: unset;
 }
 
-.modal__contact {
-  margin: auto;
-  width: 100%;
-  max-width: 400px;
-  max-height: 300px;
-  background-color: white;
-  border-radius: 6px;
-  padding: 3em 2.5em;
-  display: grid;
-  gap: 1em;
-  place-items: center;
-  grid-auto-columns: 100%;
-}
-
-.modal__title {
-  font-size: 2.5rem;
-}
-
-.header_contacto {
-  width: 90%;
-  max-width: 30px;
-}
-
-.flecha {
-  width: 30px;
-  height: 25px;
-}
-.flecha:hover {
-  border-bottom: 2px solid rgb(121, 196, 121);
-  color: rgb(121, 196, 121);
-}
-
 .modal-conten {
+  border: 2px solid red;
+  width: 480px;
+  height: 720px;
+  background: white;
   display: none;
-  position: fixed;
-  z-index: 1;
-  padding: 10px;
-  margin: auto;
-  margin-top: 50px;
-  top: 0px;
-  left: 5%;
-  width: 400px;
-  height: 400px;
-  overflow: auto;
-  background-color: white;
 }
 
-.modal__contac {
-  padding: 5px;
-  width: 300px;
-  overflow: auto;
-  background-color: green;
-  margin: 10px;
-}
-
-.modal__title {
-  font-size: 22px;
-  margin-bottom: 20px;
+.modal__conta {
+  display: flex;
+  height: 80px;
+  background: green;
+  align-items: center;
+  gap: 30px;
 }
 
 .flecha-agregar {
-  float: left;
-  font-size: 15px;
-  width: 30px;
+  width: 28px;
   height: 25px;
+  margin-left: 15px;
 }
 
-.flecha-agregar:hover {
-  text-decoration: none;
-  cursor: pointer;
+.modal__title {
+  align-items: center;
+  margin-top: 10px;
 }
 
 .formulario_agregar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   position: relative; /* Relativo con respecto al contenedor -modal- */
-  margin: auto; /* Centrada */
-  margin-top: 100px;
+  margin-top: 10px;
   border-radius: 4px;
-  width: 300px;
-  color: black;
+  height: 520px;
+  gap: 40px;
 }
 
 .formulario_nombre {
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
   font-family: "Courier New", Courier, monospace;
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.formulario_apellido {
+  margin-bottom: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.formulario_celular {
+  margin-bottom: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
 }
 
 .button_guardar {
-  width: 100%;
+  width: 300px;
+  height: 50px;
   background: green;
-  border: none;
-  padding: 12px;
   color: white;
-  margin: 16px 0;
+  margin: 10px 0;
   font-size: 16px;
 }
 
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contact {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  display: flex;
+  gap: 40px;
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+}
+
+.img2 {
+  width: 40px;
+  height: 40px;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+}
 * {
   margin: 0;
   padding: 0;

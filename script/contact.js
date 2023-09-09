@@ -1,18 +1,20 @@
-const openModal =document.querySelector(".header_contacto");
-const modal = document.querySelector(".modal");
+const openModal =document.querySelector(".fa-message");
+const modal = document.querySelector(".principal_modal");
 const closeModal = document.querySelector(".flecha");
 
 
 openModal.addEventListener("click", (e)=>{
   e.preventDefault();
-modal.classList.add("modal--show");
+document.querySelector(".principal_modal").style.display="block"
 
 });
 
 
 closeModal.addEventListener("click", (e)=>{
   e.preventDefault();
-modal.classList.remove("modal--show");
+  document.querySelector(".contenedor_home").style.display="block"
+  modal.style.display=("none")
+
 
 });
 
@@ -23,8 +25,11 @@ const closeAgregar = document.querySelector(".flecha-agregar");
 
 nuevoContacto.addEventListener("click" , function() {
   document.querySelector(".modal-conten").style.display = "block";
+  document.querySelector(".principal_modal").style.display = "none";
+
 });
 
  closeAgregar.addEventListener("click" , function() {
   document.querySelector(".modal-conten").style.display = "none";
+  document.querySelector(".principal_modal").style.display = "block";
 }); 

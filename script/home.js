@@ -18,3 +18,4 @@ atras.addEventListener("click", function(){
     document.querySelector(".modal_ajustes_perfil").style.display= "none";
     document.querySelector(".contenedor_home").style.display= "block";
 });
+
