@@ -20,6 +20,15 @@ export const inicioSesion = async () => {
         return [];
     }
 }
+export const traerUsuarioInicioSesion = async (idcontraseña, idcelular) => {
+    try {
+        const response = await axios.get(`${BASE_URL}/usuarios?idContrasena=${idcontraseña}&idCelular=${idcelular}`);
+        return response.data;
+    } catch (error) {
+        console.error(error);
+        return [];
+    }
+}
 
 export const editarUsuario = async (id, body) => {
     try {
