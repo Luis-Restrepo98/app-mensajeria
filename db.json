@@ -152,78 +152,49 @@
       "nombre": "gabriela",
       "apellido": "more",
       "celular": "8855"
+    },
+    {
+      "id": 41,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 42,
+      "nombre": "Angie",
+      "apellido": "Diaz",
+      "celular": "31346212557"
     }
   ],
   "conversacion": [
+  
     {
-      "enviadoPor": 1,
+      "usuario": "Usuario 1",
       "fecha": "2023-08-20",
       "hora": "10:30 AM",
       "mensaje": "Hola, ¿cómo estás?",
       "banderaFlag": true
     },
     {
-      "enviadoPor": 2,
+      "usuario": "Usuario 2",
       "fecha": "2023-08-20",
       "hora": "11:15 AM",
       "mensaje": "¡Hola! Estoy bien, gracias.",
       "banderaFlag": false
     },
+  
     {
-      "enviadoPor": 3,
-      "fecha": "2023-08-20",
-      "hora": "09:30 AM",
-      "mensaje": "Hola, ¿cómo estás?",
-      "banderaFlag": true
-    },
-    {
-      "enviadoPor": 4,
+      "usuario": "Usuario 1",
       "fecha": "2023-08-19",
       "hora": "03:00 PM",
       "mensaje": "Nos vemos esta noche.",
       "banderaFlag": true
     },
     {
-      "enviadoPor": 5,
+      "usuario": "Usuario 2",
       "fecha": "2023-08-20",
       "hora": "01:45 PM",
-      "mensaje": "¿Qué planes tienes para el fin de semana?",
+      "mensaje": "Si, claro",
       "banderaFlag": false
-    },
-    {
-      "enviadoPor": 6,
-      "fecha": "2023-08-20",
-      "hora": "04:30 PM",
-      "mensaje": "¡Feliz cumpleaños!",
-      "banderaFlag": true
-    },
-    {
-      "enviadoPor": 7,
-      "fecha": "2023-08-19",
-      "hora": "08:10 PM",
-      "mensaje": "Vamos al cine mañana.",
-      "banderaFlag": false
-    },
-    {
-      "enviadoPor": 8,
-      "fecha": "2023-08-20",
-      "hora": "12:20 PM",
-      "mensaje": "¡Hola! ¿Qué tal tu día?",
-      "banderaFlag": true
-    },
-    {
-      "enviadoPor": 9,
-      "fecha": "2023-08-20",
-      "hora": "02:40 PM",
-      "mensaje": "Te extraño. Nos vemos pronto.",
-      "banderaFlag": false
-    },
-    {
-      "enviadoPor": 10,
-      "fecha": "2023-08-19",
-      "hora": "10:00 PM",
-      "mensaje": "¿Has probado ese nuevo restaurante?",
-      "banderaFlag": true
     }
-  ]
-}
+  ],

@@ -33,3 +33,4 @@ nuevoContacto.addEventListener("click" , function() {
   document.querySelector(".modal-conten").style.display = "none";
   document.querySelector(".principal_modal").style.display = "block";
 }); 
+

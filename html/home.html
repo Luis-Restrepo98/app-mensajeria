@@ -33,7 +33,15 @@
             </header>
 
                  <!-- Lista de Conversaciones -->
-                <div class="lista_conversacion">
+                <!-- <div class="lista_conversacion"> -->
+                    <div class="conversation">
+                        <div class="messages" id="messages">
+                          <!-- Aquí se mostrarán los mensajes -->
+                        </div>
+                        <input type="text" id="messageInput" placeholder="Escribe un mensaje">
+                        <div class="BtnEnviar"><button id="sendButton">Enviar</button> </div>
+
+                    </div>
                     <ul class="conversacion">
                        <li><img class="imagen_avatar" src="../imagenes/perfil-avatar-1.jpg" alt="">angie</li>
                        <li><img class="imagen_avatar" src="../imagenes/avatar-fb.png" alt="">angie</li>
@@ -141,6 +149,14 @@
                                 <img class="img2" src="../imagenes/luis.jpeg" alt="Contacto 2">
                                 <h2>Luis Restrepo</h2>
                             </div>
+                            <div class="contact">
+                                <img class="img3" src="../imagenes/perfil-avatar-1.jpg" alt="Contacto 3">
+                                <h2>Angie Diaz</h2>
+                            </div>
+                            <div class="contact">
+                                <img class="img4" src="../imagenes/avatar-fb.png" alt="Contacto 4">
+                                <h2>Alejandro Arenas</h2>
+                            </div>
                             
                         </div>
                     </section>
@@ -187,5 +203,6 @@
         <script type="module" src="../CRUD/editar_usuario.js"></script>
         <script src="../script/contact.js"></script>
         <script type="module" src="../CRUD/agregar_contacto.js"></script>
+        <script type="module" src="../script/mensajes.js"></script>
 </body>
 </html>

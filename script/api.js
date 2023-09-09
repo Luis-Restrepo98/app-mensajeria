@@ -42,15 +42,3 @@ export const agregarContacto = async (body) => {
     }
 }
 
-export async function fetchContactos() {
-    try {
-        const response = await axios.get('http://localhost:3000/contactos');
-        console.log(response)
-        return response.data;
-    } catch (error) {
-        console.error('Error fetching products:', error);
-        return [];
-    }
-}
-
-

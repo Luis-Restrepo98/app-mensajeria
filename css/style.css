@@ -556,12 +556,69 @@ li {
   height: 40px;
 }
 
+.img3 {
+  width: 40px;
+  height: 40px;
+}
+
+.img4 {
+  width: 40px;
+  height: 40px;
+}
+
 /* Estilos específicos para dispositivos móviles */
 @media (max-width: 768px) {
   .contact {
     width: 100%;
   }
 }
+.conversation {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 700px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.message {
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.BtnEnviar {
+  margin-left: 220px;
+}
+
+button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;

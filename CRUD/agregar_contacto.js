@@ -1,4 +1,4 @@
-import { agregarContacto, fetchContactos} from "../script/api.js";
+import { agregarContacto} from "../script/api.js";
 
 
 const btnGuardar = document.querySelector('.button_guardar');
@@ -10,7 +10,7 @@ btnGuardar.addEventListener('click', async event => {
   event.preventDefault(); 
 /*   document.querySelector(".modal-conten").style.display="none"; */
  let numeroAleatorio = Math.random();
-
+ 
   const nuevoContacto = {
     id:parseInt(numeroAleatorio),
     nombre: nombre.value,
