@@ -25,6 +25,6 @@ nuevoContacto.addEventListener("click" , function() {
   document.querySelector(".modal-conten").style.display = "block";
 });
 
-closeAgregar.addEventListener("click" , function() {
+ closeAgregar.addEventListener("click" , function() {
   document.querySelector(".modal-conten").style.display = "none";
-});
+}); 

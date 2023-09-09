@@ -35,8 +35,22 @@ export const editarUsuario = async (id, body) => {
 export const agregarContacto = async (body) => {
     try {
         const response = await axios.post(`${BASE_URL}/contactos/`, body);
+        console.log(response)
         return response;
     } catch (error) {
         console.error(error);
     }
 }
+
+export async function fetchContactos() {
+    try {
+        const response = await axios.get('http://localhost:3000/contactos');
+        console.log(response)
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching products:', error);
+        return [];
+    }
+}
+
+
