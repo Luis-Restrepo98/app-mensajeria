@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', async function() {
           const usuarios = await traerUsuarioInicioSesion(contrasena, celular);
 
           const usuarioEncontrado = usuarios.find(usuario => usuario.celular === celular && usuario.contraseña === contrasena);
-
+        console.log(usuarioEncontrado);
           if (usuarioEncontrado) {
               const { perfil, nombre } = usuarioEncontrado;
-
+        
               usuarioPerfil.innerHTML = `
                   <img class="modal_perfil_avatar" src="${perfil}" >
                   <h2 class="modal_perfil_nombre">${nombre}</h2>`;

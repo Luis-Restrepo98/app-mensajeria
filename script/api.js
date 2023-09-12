@@ -1,7 +1,6 @@
 import axios from 'https://cdn.jsdelivr.net/npm/axios@1.3.5/+esm';
 
-/* const BASE_URL = "https://app-mensajeria-sere.onrender.com"  */
-const BASE_URL ="http://localhost:3000" 
+const BASE_URL = "https://app-mensajeria-sere.onrender.com"
 
 
 export const registrarUsuario = async (body) => {
