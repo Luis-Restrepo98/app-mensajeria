@@ -20,7 +20,6 @@ btnGuardar.addEventListener('click', async event => {
 
 
   await agregarContacto(nuevoContacto);
-  await fetchContactos();
 
 });
 
