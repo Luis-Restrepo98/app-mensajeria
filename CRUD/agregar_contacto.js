@@ -8,7 +8,9 @@ const celular = document.querySelector('.formulario_celular')
 
 btnGuardar.addEventListener('click', async event => {
   event.preventDefault(); 
-/*   document.querySelector(".modal-conten").style.display="none"; */
+document.querySelector(".modal-conten").style.display="none";
+document.querySelector(".principal_modal").style.display="block";
+
  let numeroAleatorio = Math.random();
  
   const nuevoContacto = {

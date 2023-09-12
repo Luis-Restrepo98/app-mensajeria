@@ -2,20 +2,20 @@
   "usuarios": [
     {
       "id": 1,
-      "nombre": "Usuario 1",
-      "celular": "1234567890",
+      "nombre": "Angie Diaz",
+      "celular": "3134621257",
       "contraseña": "contraseña123",
-      "perfil": "url_imagen_1.jpg",
+      "perfil": "../imagenes/angie.jpeg",
       "EnLinea": true,
       "identificacionUsuario": "usuario1",
       "ultimaHora": "2023-08-20T10:30:00"
     },
     {
       "id": 2,
-      "nombre": "Usuario 2",
-      "celular": "9876543210",
+      "nombre": "Cristian Arenas",
+      "celular": "3005420479",
       "contraseña": "clave456",
-      "perfil": "url_imagen_2.jpg",
+      "perfil": "../imagenes/cristian.jpeg",
       "EnLinea": false,
       "identificacionUsuario": "usuario2",
       "ultimaHora": "2023-08-19T15:45:00"
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "nombre": "Luis Restrepo",
-      "celular": "5555555555",
+      "celular": "3125059976",
       "contraseña": "password123",
       "perfil": "../imagenes/luis.jpeg",
       "EnLinea": true,

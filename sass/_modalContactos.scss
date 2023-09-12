@@ -3,13 +3,16 @@
 }
 .fa-message{
     font-size:40px ;
+    margin-left: -100px;
+    margin-top: 160px;
+    cursor: pointer;
 }
 .principal_modal{
-    border: 2px solid red;   
-    width: 480px;
-    height: 720px;
+    width: 530px;
+    height: 640px;
     background: white;
     display: none;
+    margin-top: 1px;
 }
 .headerPrincipalContac{
     display: flex;
@@ -26,6 +29,7 @@
     width: 28px;
     height: 25px;
     margin-left: 15px;
+    cursor: pointer;
 }
 .modal__title{
     align-items: center;
@@ -76,14 +80,12 @@
 
 
 
-.modal-conten{
-
-    border: 2px solid red;   
-    width: 480px;
-    height: 720px;
+.modal-conten{ 
+    width: 530px;
+    height: 640px;
     background: white;
     display: none;
- 
+    margin-top: 1px;
 } 
 .modal__conta{
     display: flex;
@@ -108,11 +110,11 @@
     justify-content: center;
     flex-direction: column;
     position: relative; /* Relativo con respecto al contenedor -modal- */
-    margin-top: 10px;
+    margin-top: 40px;
     border-radius: 4px;
     height: 520px;
     gap: 40px;
-
+    margin-left: 100px;
 }
 
 .formulario_nombre{

@@ -389,13 +389,6 @@ li {
   font-size: 25px;
 }
 
-.fa-message {
-  margin-top: 40px;
-  margin-left: 30px;
-  color: gray;
-  font-size: 25px;
-}
-
 .fa-bell {
   margin-top: 40px;
   margin-left: 30px;
@@ -485,14 +478,17 @@ li {
 
 .fa-message {
   font-size: 40px;
+  margin-left: -100px;
+  margin-top: 160px;
+  cursor: pointer;
 }
 
 .principal_modal {
-  border: 2px solid red;
-  width: 480px;
-  height: 720px;
+  width: 530px;
+  height: 640px;
   background: white;
   display: none;
+  margin-top: 1px;
 }
 
 .headerPrincipalContac {
@@ -512,6 +508,7 @@ li {
   width: 28px;
   height: 25px;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 .modal__title {
@@ -568,11 +565,11 @@ li {
 }
 
 .modal-conten {
-  border: 2px solid red;
-  width: 480px;
-  height: 720px;
+  width: 530px;
+  height: 640px;
   background: white;
   display: none;
+  margin-top: 1px;
 }
 
 .modal__conta {
@@ -599,10 +596,11 @@ li {
   justify-content: center;
   flex-direction: column;
   position: relative; /* Relativo con respecto al contenedor -modal- */
-  margin-top: 10px;
+  margin-top: 40px;
   border-radius: 4px;
   height: 520px;
   gap: 40px;
+  margin-left: 100px;
 }
 
 .formulario_nombre {
@@ -681,7 +679,7 @@ li {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-left: 700px;
+  margin-left: 110px;
   display: flex;
   gap: 50px;
   flex-direction: column;
@@ -706,7 +704,7 @@ input[type=text] {
 }
 
 .BtnEnviar {
-  margin-left: 220px;
+  margin-left: 110px;
 }
 
 button {

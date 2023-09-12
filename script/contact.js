@@ -6,7 +6,9 @@ const closeModal = document.querySelector(".flecha");
 openModal.addEventListener("click", (e)=>{
   e.preventDefault();
 document.querySelector(".principal_modal").style.display="block"
-
+document.querySelector(".contenedor_home").style.display="none"
+openModal.style.display="none"
+document.querySelector(".conversation").style.display="none"
 });
 
 
@@ -14,8 +16,8 @@ closeModal.addEventListener("click", (e)=>{
   e.preventDefault();
   document.querySelector(".contenedor_home").style.display="block"
   modal.style.display=("none")
-
-
+  openModal.style.display="block"
+  document.querySelector(".conversation").style.display="block"
 });
 
 const nuevoContacto = document.querySelector(".header_contac");
