@@ -20,9 +20,9 @@ export const inicioSesion = async () => {
         return [];
     }
 }
-export const traerUsuarioInicioSesion = async (idcontraseña, idcelular) => {
+export const traerUsuarioInicioSesion = async (idCelular, idContrasena) => {
     try {
-        const response = await axios.get(`${BASE_URL}/usuarios?idContrasena=${idcontraseña}&idCelular=${idcelular}`);
+        const response = await axios.get(`${BASE_URL}/usuarios?idCelular=${idCelular} &idContrasena=${idContrasena}`);
         return response.data;
     } catch (error) {
         console.error(error);

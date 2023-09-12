@@ -2,15 +2,15 @@
   display: none;
   position: fixed;
   top: 70px;
-  margin-left: 300px;
-  background-color: rgb(100, 100, 100);
-  border-radius: 7px;
+  margin-left: 262px;
+  background-color: white;
+  border-radius: 10px;
 }
 .modal-content{
-  color: white;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: -4px;
+  margin-left: 7px;
+  margin-right: 7px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
 }
@@ -18,17 +18,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  align-items: center;
-  margin-left: -20px;
+  margin-left: -30px;
   cursor: pointer;
 }
-
+li{
+  color: black;
+}
 //ajustes de perfil
 .modal_ajustes_perfil{
   display: none;
 }
 .modal_header_container{
-  width: 483px;
+  width: 540px;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -46,20 +47,21 @@
   margin-left: 10px;
   cursor: pointer;
 }
-.modal_header_lupa{
-  width: 30px;
-  height: 30px;
+.fa-magnifying-glass{
+  font-size: 30px;
   margin-right: 20px;
   margin-top: 20px;
 }
 // edicion del perfil
 
 .modal_perfil{
+  width: 33.8rem;
   background-color: rgb(31, 31, 31);
   display: flex;
   align-items: center;
   gap: 20px;
   border-bottom: 1px solid rgb(58, 58, 58);
+  cursor: pointer;
 }
 .modal_perfil_avatar{
   width: 60px;
@@ -75,8 +77,38 @@
 }
 .modal_edicion_perfil{
   background-color: rgb(31, 31, 31);
-  width: 483px;
+  width: 33.8rem;
   height: 100%;
+}
+.fa-key{
+  margin-top: 40px;
+  margin-left: 30px;
+  color: gray;
+  font-size: 25px;
+}
+.fa-unlock-keyhole{
+  margin-top: 40px;
+  margin-left: 30px;
+  color: gray;
+  font-size: 25px;
+}
+.fa-circle-user{
+  margin-top: 40px;
+  margin-left: 30px;
+  color: gray;
+  font-size: 25px;
+}
+.fa-message{
+  margin-top: 40px;
+  margin-left: 30px;
+  color: gray;
+  font-size: 25px;
+}
+.fa-bell{
+  margin-top: 40px;
+  margin-left: 30px;
+  color: gray;
+  font-size: 25px;
 }
 .title_opcion{
   color: white;
@@ -86,4 +118,62 @@
 .title_opcion_parrafo{
   color: grey;
   margin-left: 90px;
+}
+
+//modal editar perfil
+.modal_editar{
+  display: none;
+  height: 39rem;
+  width: 30rem;
+}
+.modal_editar_foto{
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.fa-arrow-left-long{
+  cursor: pointer;
+  font-size: 35px;
+}
+.modal_imagen{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.modal_foto{
+  width: 150px;
+  height: 140px;
+  border: 2px solid grey;
+  border-radius: 50% ;
+  margin-top: 70px;
+  cursor: pointer;
+}
+.modal_nombre{
+  display: flex;
+  gap: 120px;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+.modal_edit_nombre{
+  cursor: pointer;
+}
+.fa-user{
+  font-size: 40px;
+}
+.modal_telefono{
+  display: flex;
+  gap: 120px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+.fa-phone{
+  font-size: 40px;
+}
+
+//pencil
+.fa-pencil{
+  font-size: 30px;
+  margin-top: 130px;
+  margin-left: 50px;
 }

@@ -33,26 +33,9 @@
                     </div>
                 </header>
             
-                     <!-- Lista de Conversaciones -->
-                    <div class="lista_conversacion">
-                        <ul class="conversacion">
-                           <li><img class="imagen_avatar" src="../imagenes/perfil-avatar-1.jpg" alt="">angie</li>
-                           <li><img class="imagen_avatar" src="../imagenes/avatar-fb.png" alt="">angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                           <li>angie</li>
-                        </ul>
-                                <!-- Historial de Conversación -->
+                    <!-- Lista de Conversaciones -->
+
+                    <!-- Historial de Conversación -->
             
                     <div class="imagen_container">
                         <img class="header_camara" src="../imagenes/camera-1_48139.png" alt="" >
@@ -76,6 +59,7 @@
                     </section>
                 </div>
             </div>
+            <!--fin modal ajustes perfil -->
             <!---modal edicion de perfil-->
             <div class="modal_ajustes_perfil">
                 <header class="modal_header_container">
@@ -83,25 +67,51 @@
                         <img class="modal_header-flecha_izquierda" src="../imagenes/flecha izquierda.jpg" alt="">
                         <h1 class="modal_header_ajustes">Ajustes</h1>
                     </div>
-                    <img class="modal_header_lupa" src="../imagenes/lupa.png" alt="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
                 </header>
                 <section class="modal_perfil">
                     <img class="modal_perfil_avatar" src="../imagenes/luis.jpeg" alt="">
                     <h2 class="modal_perfil_nombre">Nombre</h2>
                 </section>
                 <section class="modal_edicion_perfil">
-                    <div><img src="" alt=""><h2 class="title_opcion">Cuenta</h2><p class="title_opcion_parrafo">Notitificaciones de seguridad, cambiar numero</p></div>
-                    <div><img src="" alt=""><h2 class="title_opcion">Privacidad</h2><p class="title_opcion_parrafo">Bloquear contactos, mensajes temporales</p></div>
-                    <div><img src="" alt=""><h2 class="title_opcion">Avatar</h2><p class="title_opcion_parrafo">Crear, editar, administrar foto del perfil</p></div>
-                    <div><img src="" alt=""><h2 class="title_opcion">Chats</h2><p class="title_opcion_parrafo">Tema, fondos de pantalla, historial de chat</p></div>
-                    <div><img src="" alt=""><h2 class="title_opcion">Notificaciones</h2><p class="title_opcion_parrafo">Tonos de mensaje, grupos y llamadas</p></div>
-                    <div><img src="" alt=""><h2 class="title_opcion">Almacenamiento y datos</h2><p class="title_opcion_parrafo">Uso de red, descarga automatica</p></div>
+                    <div></div>
+                    <div><i class="fa-solid fa-key"></i><h2 class="title_opcion">Cuenta</h2><p class="title_opcion_parrafo">Notitificaciones de seguridad, cambiar numero</p></div>
+                    <div><i class="fa-solid fa-unlock-keyhole"></i><h2 class="title_opcion">Privacidad</h2><p class="title_opcion_parrafo">Bloquear contactos, mensajes temporales</p></div>
+                    <div><i class="fa-solid fa-circle-user"></i><h2 class="title_opcion">Avatar</h2><p class="title_opcion_parrafo">Crear, editar, administrar foto del perfil</p></div>
+                    <div><i class="fa-solid fa-message"></i><h2 class="title_opcion">Chats</h2><p class="title_opcion_parrafo">Tema, fondos de pantalla, historial de chat</p></div>
+                    <div><i class="fa-solid fa-bell"></i><h2 class="title_opcion">Notificaciones</h2><p class="title_opcion_parrafo">Tonos de mensaje, grupos y llamadas</p></div>
+                    <div><h2 class="title_opcion">Almacenamiento y datos</h2><p class="title_opcion_parrafo">Uso de red, descarga automatica</p></div>
                     <div><img src="" alt=""><h2 class="title_opcion">Idioma de la aplicacion</h2><p class="title_opcion_parrafo">Español (idioma del dispositivo)</p></div>
                     <div><img src="" alt=""><h2 class="title_opcion">Ayuda</h2><p class="title_opcion_parrafo">Centro de ayuda, contactanos, politica de privacidad</p></div>
                     <div><img src="" alt=""><h2 class="title_opcion">Invitar amigos</h2></div>
                 </section> 
             </div>
-        
+        <!---fin de modal edicion perfil-->
+        <!---modal para editar foto, nombre, contraseña -->
+            <section class="modal_editar">
+                <header class="modal_editar_foto">
+                    <i class="fa-solid fa-arrow-left-long"></i>
+                    <h1 class="modal_editar_perfil">Perfil</h1>
+                </header>
+                <section>
+                    <div class="modal_imagen"><img class="modal_foto" src="" alt="" ></div>
+                    <article class="modal_nombre">
+                        <i class="fa-solid fa-user"></i>
+                        <div>
+                            <h2 class="modal_edit_nombre">Nombre</h2><h3 class="nombre">luis restrepo</h3>
+                        </div>
+                    </article>
+                    <article class="modal_telefono">
+                        <i class="fa-duotone fa-phone"></i>
+                        <div>
+                            <h2>Telefono</h2>
+                            <p>numero</p>
+                        </div>
+                    </article>
+                </section>
+    
+            </section>
+        <!----  fin modal para editar foto de perfil -->
 
            
         <img  class="header_contacto" src="../imagenes/agregar contac.png" alt="">
@@ -132,8 +142,9 @@
                 </div>
             </main>
         </section>
+        
 
-       
+
             <div class="modal-content">
                 <form class="formulario_agregar">
                     <div class="modal__contact">
@@ -147,30 +158,7 @@
                 </form> 
                
             </div>
-    
-            
-    
-
-
-
-
-             <!-- Lista de Conversaciones -->
-            <div class="lista_conversacion">
-                <ul class="conversacion">
-                    <div>
-                      <li><img class="imagen_avatar" src="../imagenes/perfil-avatar-1.jpg" alt=""></li>
-                        <h2>Angie</h2>  
-                    </div>
-                   
-                   <li><img class="imagen_avatar" src="../imagenes/avatar-fb.png" alt=""></li>
-                
-                   </li>
-                </ul> 
-                        <!-- Historial de Conversación -->
-               
-            </div>
-
-        
+ 
         <script src="../script/home.js"></script>
         <script type="module" src="../CRUD/editar_usuario.js"></script>
         <script src="../script/contact.js"></script>
