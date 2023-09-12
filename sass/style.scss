@@ -3,6 +3,10 @@
 @use "mixins";
 @use "home";
 @use "modalAjustes";
+@use "modalContactos";
+@use "mensajes.scss";
+
+
 *{
     margin: 0;
     padding: 0;

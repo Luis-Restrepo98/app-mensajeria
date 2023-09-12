@@ -41,91 +41,160 @@
       "ultimaHora": "2023-08-20T12:00:00"
     }
   ],
-  "mensajes": [
+  "contactos": [
     {
-      "idUsuario1": 1,
-      "idUsuario2": 2,
-      "idUsuario3": 3,
-      "idUsuario4": 4,
-      "idUsuario5": 5,
-      "idUsuario6": 6,
-      "idUsuario7": 7,
-      "idUsuario8": 8,
-      "idUsuario9": 9,
-      "idUsuario10": 10,
-      "conversacion": [
-        {
-          "enviadoPor": 1,
-          "fecha": "2023-08-20",
-          "hora": "10:30 AM",
-          "mensaje": "Hola, ¿cómo estás?",
-          "banderaFlag": true
-        },
-        {
-          "enviadoPor": 2,
-          "fecha": "2023-08-20",
-          "hora": "11:15 AM",
-          "mensaje": "¡Hola! Estoy bien, gracias.",
-          "banderaFlag": false
-        },
-        {
-          "enviadoPor": 3,
-          "fecha": "2023-08-20",
-          "hora": "09:30 AM",
-          "mensaje": "Hola, ¿cómo estás?",
-          "banderaFlag": true
-        },
-        {
-          "enviadoPor": 4,
-          "fecha": "2023-08-19",
-          "hora": "03:00 PM",
-          "mensaje": "Nos vemos esta noche.",
-          "banderaFlag": true
-        },
-        {
-          "enviadoPor": 5,
-          "fecha": "2023-08-20",
-          "hora": "01:45 PM",
-          "mensaje": "¿Qué planes tienes para el fin de semana?",
-          "banderaFlag": false
-        },
-        {
-          "enviadoPor": 6,
-          "fecha": "2023-08-20",
-          "hora": "04:30 PM",
-          "mensaje": "¡Feliz cumpleaños!",
-          "banderaFlag": true
-        },
-        {
-          "enviadoPor": 7,
-          "fecha": "2023-08-19",
-          "hora": "08:10 PM",
-          "mensaje": "Vamos al cine mañana.",
-          "banderaFlag": false
-        },
-        {
-          "enviadoPor": 8,
-          "fecha": "2023-08-20",
-          "hora": "12:20 PM",
-          "mensaje": "¡Hola! ¿Qué tal tu día?",
-          "banderaFlag": true
-        },
-        {
-          "enviadoPor": 9,
-          "fecha": "2023-08-20",
-          "hora": "02:40 PM",
-          "mensaje": "Te extraño. Nos vemos pronto.",
-          "banderaFlag": false
-        },
-        {
-          "enviadoPor": 10,
-          "fecha": "2023-08-19",
-          "hora": "10:00 PM",
-          "mensaje": "¿Has probado ese nuevo restaurante?",
-          "banderaFlag": true
-        }
-      ]
+      "nombre": "Juan",
+      "telefono": "555-1234",
+      "correo": "juan@example.com"
+    },
+    {
+      "nombre": "Juan",
+      "telefono": "555-1234",
+      "correo": "juan@example.com"
+    },
+    {
+      "nombre": "Juan",
+      "telefono": "555-1234",
+      "correo": "juan@example.com"
+    },
+    {
+      "id": 27,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 13,
+      "nombre": "Derwin",
+      "apellido": "Arenas",
+      "celular": "125555"
+    },
+    {
+      "id": 0.3008677974600076,
+      "nombre": "Angie ",
+      "apellido": "Diaz",
+      "celular": "152445"
+    },
+    {
+      "id": 28,
+      "nombre": "Mel",
+      "apellido": "Gon",
+      "celular": "5214"
+    },
+    {
+      "id": 29,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 30,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 31,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 32,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 33,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 34,
+      "nombre": "Angie",
+      "apellido": "Diaz",
+      "celular": "555555"
+    },
+    {
+      "id": 35,
+      "nombre": "pepa",
+      "apellido": "hdhhd",
+      "celular": "55555"
+    },
+    {
+      "id": 36,
+      "nombre": "pepita",
+      "apellido": "grilla",
+      "celular": "31346212557"
+    },
+    {
+      "id": 37,
+      "nombre": "pepita",
+      "apellido": "grilla",
+      "celular": "31346212557"
+    },
+    {
+      "id": 38,
+      "nombre": "Angie",
+      "apellido": "Diaz",
+      "celular": "55555555555"
+    },
+    {
+      "id": 39,
+      "nombre": "Angie",
+      "apellido": "Diaz",
+      "celular": "31346212557"
+    },
+    {
+      "id": 40,
+      "nombre": "gabriela",
+      "apellido": "more",
+      "celular": "8855"
+    },
+    {
+      "id": 41,
+      "nombre": "hehhe",
+      "apellido": "bdbdb",
+      "celular": "31346212557"
+    },
+    {
+      "id": 42,
+      "nombre": "Angie",
+      "apellido": "Diaz",
+      "celular": "31346212557"
     }
-  ]
-}
- 
+  ],
+  "conversacion": [
+  
+    {
+      "usuario": "Usuario 1",
+      "fecha": "2023-08-20",
+      "hora": "10:30 AM",
+      "mensaje": "Hola, ¿cómo estás?",
+      "banderaFlag": true
+    },
+    {
+      "usuario": "Usuario 2",
+      "fecha": "2023-08-20",
+      "hora": "11:15 AM",
+      "mensaje": "¡Hola! Estoy bien, gracias.",
+      "banderaFlag": false
+    },
+  
+    {
+      "usuario": "Usuario 1",
+      "fecha": "2023-08-19",
+      "hora": "03:00 PM",
+      "mensaje": "Nos vemos esta noche.",
+      "banderaFlag": true
+    },
+    {
+      "usuario": "Usuario 2",
+      "fecha": "2023-08-20",
+      "hora": "01:45 PM",
+      "mensaje": "Si, claro",
+      "banderaFlag": false
+    }
+  ],

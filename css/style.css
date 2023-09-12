@@ -479,6 +479,249 @@ li {
   margin-left: 50px;
 }
 
+.imgContac {
+  margin-left: 550px;
+}
+
+.fa-message {
+  font-size: 40px;
+}
+
+.principal_modal {
+  border: 2px solid red;
+  width: 480px;
+  height: 720px;
+  background: white;
+  display: none;
+}
+
+.headerPrincipalContac {
+  display: flex;
+  justify-content: space-between;
+  background: green;
+}
+
+.modal__contact {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.flecha {
+  width: 28px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.modal__title {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.modal__busqueda {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.header_lupa {
+  cursor: pointer;
+}
+
+.header_trespuntos {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.conten_nuevo {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.header_grupo {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.header_contac {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.header_comunidad {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 35px;
+}
+
+.Contact_whatsapp {
+  margin-left: 20px;
+  color: gray;
+}
+
+.modal--show {
+  opacity: 1;
+  pointer-events: unset;
+}
+
+.modal-conten {
+  border: 2px solid red;
+  width: 480px;
+  height: 720px;
+  background: white;
+  display: none;
+}
+
+.modal__conta {
+  display: flex;
+  height: 80px;
+  background: green;
+  align-items: center;
+  gap: 30px;
+}
+
+.flecha-agregar {
+  width: 28px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.modal__title {
+  align-items: center;
+  margin-top: 10px;
+}
+
+.formulario_agregar {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative; /* Relativo con respecto al contenedor -modal- */
+  margin-top: 10px;
+  border-radius: 4px;
+  height: 520px;
+  gap: 40px;
+}
+
+.formulario_nombre {
+  margin-bottom: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.formulario_apellido {
+  margin-bottom: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.formulario_celular {
+  margin-bottom: 16px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.button_guardar {
+  width: 300px;
+  height: 50px;
+  background: green;
+  color: white;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.contact {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  display: flex;
+  gap: 40px;
+}
+
+.img1 {
+  width: 40px;
+  height: 40px;
+}
+
+.img2 {
+  width: 40px;
+  height: 40px;
+}
+
+.img3 {
+  width: 40px;
+  height: 40px;
+}
+
+.img4 {
+  width: 40px;
+  height: 40px;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+}
+.conversation {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 700px;
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.message {
+  background-color: #f2f2f2;
+  margin-top: 30px;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+input[type=text] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.BtnEnviar {
+  margin-left: 220px;
+}
+
+button {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;

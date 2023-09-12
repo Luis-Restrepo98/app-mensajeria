@@ -32,17 +32,18 @@
             
                     </div>
                 </header>
-            
-                    <!-- Lista de Conversaciones -->
+        </div>
+                 <!-- Lista de Conversaciones -->
+                <!-- <div class="lista_conversacion"> -->
+                    <div class="conversation">
+                        <div class="messages" id="messages">
+                          <!-- Aquí se mostrarán los mensajes -->
+                        </div>
+                        <input type="text" id="messageInput" placeholder="Escribe un mensaje">
+                        <div class="BtnEnviar"><button id="sendButton">Enviar</button> </div>
 
-                    <!-- Historial de Conversación -->
-            
-                    <div class="imagen_container">
-                        <img class="header_camara" src="../imagenes/camera-1_48139.png" alt="" >
-                        <img class="header_lupa" src="../imagenes/lupa.png" alt="" >
-                        <img class="header_trespuntos" src="../imagenes/tres puntos vertical.png" alt="" >
                     </div>
-            </div>
+                            <!-- Historial de Conversación -->
         </div>
 
             <!-- modal de ajustes de perfil -->
@@ -113,48 +114,69 @@
             </section>
         <!----  fin modal para editar foto de perfil -->
 
-           
-        <img  class="header_contacto" src="../imagenes/agregar contac.png" alt="">
-
-        <section class ="modal ">
-            <header>
-            <div class="modal__contact">
-                <img  class="flecha" src="../imagenes/flecha.png" alt="">
-                <h2 class="modal__title"> Contactos de WhatsApp</h2>
-            </div>
-            <div class ="modal__busqueda">
-                <img class="header_lupa" src="../imagenes/lupa.png" alt="">
-                <img class="header_trespuntos" src="../imagenes/tres puntos vertical.png" alt="">
-            </div>
-            </header>
-            <main>
-                <div class="header_grupo">
-                    <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
-                    <h2>Nuevo grupo</h2>
-                </div>
-                <div class="header_contac">
-                    <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
-                    <h2>Nuevo contacto</h2>
-                </div>
-                <div class="header_comunidad">
-                    <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
-                    <h2>Nuevo comunidad</h2>
-                </div>
-            </main>
-        </section>
-        
+            <div class="imgContac"> <i class="fa-solid fa-message"></i> </div>
 
 
-            <div class="modal-content">
+                <section class ="principal_modal">
+                    <header class="headerPrincipalContac">
+                        <div class="modal__contact">
+                            <img  class="flecha" src="../imagenes/flecha.png" alt="">
+                            <h2 class="modal__title"> Contactos</h2>
+                        </div>
+                        <div class ="modal__busqueda">
+                            <img class="header_lupa" src="../imagenes/lupa.png" alt="">
+                            <img class="header_trespuntos" src="../imagenes/tres puntos vertical.png" alt="">
+                        </div>
+                    </header>
+                    <section class="conten_nuevo">
+                        <div class="header_grupo">
+                            <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
+                            <h2>Nuevo grupo</h2>
+                        </div>
+                        <div class="header_contac">
+                            <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
+                            <h2>Nuevo contacto</h2>
+                        </div>
+                        <div class="header_comunidad">
+                            <img class="logo_grupal" src="../imagenes/logo grupal.webp" alt="">
+                            <h2>Nuevo comunidad</h2>
+                        </div>
+                    </section>
+                
+                    <section>
+                        <h3 class="Contact_whatsapp"> Contactos en WhatsApp</h3>
+                        <div class="contact-list">
+                            <div class="contact">
+                                <img class="img1" src="/imagenes/avatar-fb.png" alt="Contacto 1">
+                                <h2>Cristian Arenas</h2>
+                            </div>
+                            <div class="contact">
+                                <img class="img2" src="../imagenes/luis.jpeg" alt="Contacto 2">
+                                <h2>Luis Restrepo</h2>
+                            </div>
+                            <div class="contact">
+                                <img class="img3" src="../imagenes/perfil-avatar-1.jpg" alt="Contacto 3">
+                                <h2>Angie Diaz</h2>
+                            </div>
+                            <div class="contact">
+                                <img class="img4" src="../imagenes/avatar-fb.png" alt="Contacto 4">
+                                <h2>Alejandro Arenas</h2>
+                            </div>
+                            
+                        </div>
+                    </section>
+                </section>
+
+            <div class="modal-conten">
+                <div class="modal__conta">
+                    <img  class="flecha-agregar" src="../imagenes/flecha.png" alt="">
+                    <h2 class="modal__title">Nuevo contacto</h2>
+                </div>
                 <form class="formulario_agregar">
-                    <div class="modal__contact">
-                        <img  class="flecha-agregar" src="../imagenes/flecha.png" alt="">
-                        <h2 class="modal__title">Nuevo contacto</h2>
-                    </div>
-                    <input class="formulario_name" type="text" name="formulario_name" placeholder="Nombre" required>
-                    <input class="formulario_lastName" type="text" name="formulario_lastName"  placeholder="Apellido" required>
-                    <input class="formulario_cel" type="number" name="formulario_cel"  placeholder="Teléfono" required>
-                    <button type="submit" class="formulario_guardar" ><a href="">Guardar</a></button>
+                    <input class="formulario_nombre" type="text" name="formulario_name" placeholder="Ingrese su nombre" required>
+                    <input class="formulario_apellido" type="text" name="formulario_lastName"  placeholder="Ingrese su apellido" required>
+                    <input class="formulario_celular" type="number" name="formulario_cel"  placeholder="Teléfono" required>
+                    <button class="button_guardar" type="submit" > GUARDAR</button>
                 </form> 
                
             </div>
@@ -162,5 +184,7 @@
         <script src="../script/home.js"></script>
         <script type="module" src="../CRUD/editar_usuario.js"></script>
         <script src="../script/contact.js"></script>
+        <script type="module" src="../CRUD/agregar_contacto.js"></script>
+        <script type="module" src="../script/mensajes.js"></script>
 </body>
 </html>
